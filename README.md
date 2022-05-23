@@ -6,10 +6,12 @@ Code provided as an example / educational purposes with no guarantee
 
 # how it works
 
-index.mjs => ES Module
+index.mjs => ES Module 
 
 lib.mjs => imported from index.mjs
 
+note:
+you can keep .js if you add specify package.json with type module
 
 
 
