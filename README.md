@@ -1,14 +1,15 @@
-# Welcome to your CDK TypeScript project
+# Example of top level await - lambda
 
-This is a blank project for CDK development with TypeScript.
+This example gets a secret from secrets manager when starting with a top-level await
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+Code provided as an example / educational purposes with no guarantee
 
-## Useful commands
+# how it works
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+index.mjs => ES Module
+
+lib.mjs => imported from index.mjs
+
+
+
+
